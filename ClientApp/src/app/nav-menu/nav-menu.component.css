@@ -1,4 +1,4 @@
-li .glyphicon {
+li .fa {
     margin-right: 10px;
 }
 
@@ -56,4 +56,19 @@ li.link-active a:focus {
         overflow: hidden;
         text-overflow: ellipsis;
     }
+}
+
+.custom-pill {
+  width: 100%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: rgba(108, 117, 125, 1);
+  color: white;
+}
+
+.navbar-nav .nav-link
+{
+  margin-left: 5px;
+  padding-left: 5px;
 }
