@@ -1,0 +1,51 @@
+<h2>Angular FAQ</h2>
+
+<div class="card">
+  <div class="card-header">
+    What is the angular CLI?
+  </div>
+  <div class="card-body">
+    A: Angular cli is a command line interface to scaffold and build angular apps using nodejs style (commonJs) modules. Not only it provides you scalable project structure, instead it handles all common tedious tasks for you out of the box.
+  </div>
+</div>
+<br />
+<div class="card">
+  <div class="card-header">
+    In Angular 6, what CLI command will create a new component?
+  </div>
+  <div class="card-body">
+    A:
+    <p>
+      <code>
+        ng generate
+      </code>
+    </p>
+    Generate components, routes, services and pipes with a simple command. The CLI will also create simple test shells for all of these.
+    The CLI can scaffold Angular components through the generate command.
+    To create a new component run:
+    <p>
+      <code>
+        ng generate component [component-name]
+      </code>
+    </p>
+    Executing the command creates a folder, <code>[component-name]</code>, in the project's src/app path or the current path the command is executed in if it's a child folder of the project.
+    The folder has the following:
+    <p>
+      <code>[component-name].component.ts</code> the component class file
+        <br />
+        <code>[component-name].component.css</code> for styling the component
+        <br />
+        <code>[component-name].component.html</code> component html
+        <br />
+        <code>[component-name].component.spec.ts</code> tests for the component
+    </p>
+  </div>
+</div>
+<br />
+
+<div class="card">
+  <div class="card-header">How can a slow performing Angular application be improved?</div>
+  <div class="card-body">Make it run fast... Build the Angular app with the <code>--prod</code> flag</div>
+</div>
+<br />
+
